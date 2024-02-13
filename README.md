@@ -100,6 +100,13 @@ For development (react on changes):
 
     npm run dev
 
+With
+
+    "prestart": "npm run build",
+
+..the command `npm start` will both build and run the application
+
+Further, using `npm start --silent` it will just build and run the application without any additional output.
 
 Structure Interfaces in `/src/interfaces` and implementations in `/src/models`
 
